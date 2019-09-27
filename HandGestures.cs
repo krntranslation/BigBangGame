@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace BigBangGame
 {
-    class Program
+    class HandGestures
     {
-        static void Main(string[] args)
-        {
-
-           
-        }
     }
 }
