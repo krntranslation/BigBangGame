@@ -9,13 +9,6 @@ namespace BigBangGame
     public class Computer : Player
     {
 
-
-        public Computer()
-        {
-            name = "Johnny Five";
-            gesture = null;
-        }
-        
         public override void ChooseHandGesture()
         {
             var random = new Random();
