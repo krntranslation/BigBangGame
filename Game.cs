@@ -50,15 +50,11 @@ namespace BigBangGame
             Console.WriteLine(rules);
             rules = Console.ReadLine();
 
-            numberOfPlayers();
-            //CreatePlayers();
-            //RoundStart();
+            numberOfPlayers();       
             player1.ChooseHandGesture();
             player2.ChooseHandGesture();
-            //Console.WriteLine("Player1 Gesture: " + player1.gesture + "\nPlayer2 Gesture: " + player2.gesture);
-            //Console.ReadLine();
             CompareResults();
-            //RoundScore();
+           
 
 
         }
@@ -114,9 +110,9 @@ namespace BigBangGame
             }
             else if (player1.gesture == 0 && player2.gesture == 1)
             {
-                Console.WriteLine("Player 2 wins round"); 
+                Console.WriteLine("Player 2 wins round");
                 player2Score++;
-                RoundScore(); 
+                RoundScore();
             }
             else if (player1.gesture == 0 && player2.gesture == 2)
             {
@@ -174,7 +170,7 @@ namespace BigBangGame
             }
             else if (player1.gesture == 2 && player2.gesture == 3)
             {
-                Console.WriteLine("Player 1 wins round");  
+                Console.WriteLine("Player 1 wins round");
                 player1Score++;
                 RoundScore();
             }
@@ -187,7 +183,7 @@ namespace BigBangGame
             else if (player1.gesture == 3 && player2.gesture == 0)
             {
                 Console.WriteLine("Player 2 wins round");
-                player2Score++; 
+                player2Score++;
                 RoundScore();
             }
             else if (player1.gesture == 3 && player2.gesture == 1)
@@ -232,6 +228,7 @@ namespace BigBangGame
                 player2Score++;
                 RoundScore();
             }
+         
         }
        
         public void RoundScore()
@@ -259,43 +256,6 @@ namespace BigBangGame
 
     }
 }
-//   ((5 + player1.gesture) - player2.gesture) % 5 == x)
-
-//    {
-//        if (x == 1 || x == 3)
-//        {
-//            Console.WriteLine("Player 1 wins this round");
-//            Console.ReadLine();
-
-//        }
-//        if (x == 2 || x == 4)
-//        {
-
-//            Console.WriteLine(" Player 2 wins this round");
-//            Console.ReadLine();
-
-//        }
-//        if(x == 0)
-//        {
-//            player1.ChooseHandGesture();
-//            player2.ChooseHandGesture();
-
-
-//        }
-//    }
-//    else
-//    {
-//        player1.ChooseHandGesture();
-//        player2.ChooseHandGesture();
-//    }    
-
-//}
-
-
-
-
-
-
 
 
 

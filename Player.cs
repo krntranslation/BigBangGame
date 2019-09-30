@@ -27,23 +27,7 @@ namespace BigBangGame
            
         }
 
-        //member methods
-
-        //public void playerName(string name)
-        //{
-        //    //this.name = name;
-        //    //Console.WriteLine(name);
-        //}
-        //public void playerScore()
-        //{
-        //    //for (i = 0; i <= 3; i++;);
-        //    //Console.WriteLine("Value of i", i);
-        //}
-        //public void playerGesture()
-        //{
-        //    Console.WriteLine("Type in a gesture");
-        //    gesture = Console.ReadLine();
-        //}
+        
 
         public abstract void ChooseHandGesture();
 

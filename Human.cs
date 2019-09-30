@@ -14,7 +14,14 @@ namespace BigBangGame
         {
             Console.WriteLine("Type in your hand gesture");
             gesture = Double.Parse(Console.ReadLine());
-        
+            //try
+            //{
+            //    gesture = Double.Parse(Console.ReadLine());
+            //}
+            //catch (IndexOutOfRangeException)
+            //{
+            //    Console.WriteLine("Error please only enter 0 - 4 ");
+            //}
             
         }
     }
