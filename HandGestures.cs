@@ -15,14 +15,16 @@ namespace BigBangGame
         int scissor = 2;
         int lizard = 3;
         int spock = 4;
-        public string gesture;
+        public int gesture;
         public HandGestures()
+            
         {
-            gesture = null;
+         
+            gesture = 0;
         }
 
-        List<string> gestures = new List<string>() { "rock", "paper", "scissors", "lizard", "spock" };
-        List<string> gestures2 = new List<string>() { "rock", "paper", "scissors", "lizard", "spock" };
+        //List<string> gestures = new List<string>() { "rock", "paper", "scissors", "lizard", "spock" };
+        //List<string> gestures2 = new List<string>() { "rock", "paper", "scissors", "lizard", "spock" };
 
         //public void startGesture()
         //{

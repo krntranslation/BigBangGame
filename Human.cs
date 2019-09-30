@@ -13,7 +13,9 @@ namespace BigBangGame
         public override void ChooseHandGesture()
         {
             Console.WriteLine("Type in your hand gesture");
-            gesture = Console.ReadLine();
+            gesture = Double.Parse(Console.ReadLine());
+        
+            
         }
     }
 }

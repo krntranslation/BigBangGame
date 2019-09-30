@@ -14,8 +14,11 @@ namespace BigBangGame
             var random = new Random();
             var list = new List<string>() { "rock", "paper", "scissors", "lizard", "spock" };
             int index = random.Next(list.Count);
-            gesture = list[index];
+            gesture = index;
+            Console.WriteLine("Computer selects" + " " + index);
             Console.ReadLine();
+
+        
         }
 
 

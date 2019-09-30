@@ -11,9 +11,10 @@ namespace BigBangGame
         //member Variables
 
         public string name;
-        public string gesture;
+        public double gesture;
         public int player1Score;
         public int player2Score;
+        
         
 
         //constructor
@@ -22,10 +23,8 @@ namespace BigBangGame
         public Player()
         {
             name = null;
-            gesture = null;
-            player1Score = 0;
-            player2Score = 0;
-            
+            gesture = 0;
+           
         }
 
         //member methods
